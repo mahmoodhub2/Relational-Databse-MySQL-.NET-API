@@ -1,0 +1,13 @@
+﻿<Window Name="leaderBoard" x:Class="R_D_Game.LeaderBoard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:R_D_Game"
+        mc:Ignorable="d"
+        Title="LeaderBoard" Height="450" Width="800">
+    <Grid>
+        <TextBlock Name="showWinners" HorizontalAlignment="Left" Margin="266,0,0,-0.333" TextWrapping="Wrap" VerticalAlignment="Top" Height="421" Width="527"/>
+
+    </Grid>
+</Window>
